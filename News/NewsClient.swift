@@ -23,6 +23,10 @@ class NewsClient {
         return Single.create { (emitter) -> Disposable in
             let session = Alamofire.Session()
             session.request(path).responseJSON { (response) in
+                #if DEBUG
+                Thread.sleep(forTimeInterval: Double.random(in: 0.5...1))
+                #endif
+
                 if let error = response.error {
                     emitter(.error(error))
                     return

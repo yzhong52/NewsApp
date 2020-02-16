@@ -21,7 +21,7 @@ class NewsManager {
 
     private let timer = Observable<Int>.timer(
         RxTimeInterval.seconds(0),
-        period: RxTimeInterval.seconds(5),
+        period: RxTimeInterval.seconds(120),
         scheduler: ConcurrentDispatchQueueScheduler(qos: .background))
 
     func news() -> Driver<NewsLoadState> {
