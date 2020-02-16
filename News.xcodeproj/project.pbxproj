@@ -18,6 +18,11 @@
 		4BE6228A23F9971B008C1ED1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE6228923F9971B008C1ED1 /* Alamofire */; };
 		4BE6228C23F99AD9008C1ED1 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6228B23F99AD9008C1ED1 /* Api.swift */; };
 		4BE6228E23F99D6B008C1ED1 /* NewsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6228D23F99D6B008C1ED1 /* NewsClient.swift */; };
+		4BE6229023F9CF13008C1ED1 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6228F23F9CF13008C1ED1 /* NewsTableViewCell.swift */; };
+		4BE6229223F9D05E008C1ED1 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6229123F9D05E008C1ED1 /* UIImageView+extension.swift */; };
+		4BE6229423F9D081008C1ED1 /* ImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6229323F9D081008C1ED1 /* ImagesManager.swift */; };
+		4BE6229623F9E3DF008C1ED1 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6229523F9E3DF008C1ED1 /* NewsManager.swift */; };
+		4BE6229823F9E40B008C1ED1 /* LoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6229723F9E40B008C1ED1 /* LoadState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,11 @@
 		4BE6227D23F9948A008C1ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BE6228B23F99AD9008C1ED1 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		4BE6228D23F99D6B008C1ED1 /* NewsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsClient.swift; sourceTree = "<group>"; };
+		4BE6228F23F9CF13008C1ED1 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		4BE6229123F9D05E008C1ED1 /* UIImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		4BE6229323F9D081008C1ED1 /* ImagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesManager.swift; sourceTree = "<group>"; };
+		4BE6229523F9E3DF008C1ED1 /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		4BE6229723F9E40B008C1ED1 /* LoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +79,13 @@
 				4BE6226F23F99486008C1ED1 /* AppDelegate.swift */,
 				4BE6227123F99486008C1ED1 /* SceneDelegate.swift */,
 				4BE6227323F99486008C1ED1 /* ViewController.swift */,
+				4BE6228F23F9CF13008C1ED1 /* NewsTableViewCell.swift */,
+				4BE6229123F9D05E008C1ED1 /* UIImageView+extension.swift */,
+				4BE6229323F9D081008C1ED1 /* ImagesManager.swift */,
 				4BE6228B23F99AD9008C1ED1 /* Api.swift */,
 				4BE6228D23F99D6B008C1ED1 /* NewsClient.swift */,
+				4BE6229523F9E3DF008C1ED1 /* NewsManager.swift */,
+				4BE6229723F9E40B008C1ED1 /* LoadState.swift */,
 				4BE6227523F99486008C1ED1 /* Main.storyboard */,
 				4BE6227823F9948A008C1ED1 /* Assets.xcassets */,
 				4BE6227A23F9948A008C1ED1 /* LaunchScreen.storyboard */,
@@ -160,10 +175,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE6227423F99486008C1ED1 /* ViewController.swift in Sources */,
+				4BE6229823F9E40B008C1ED1 /* LoadState.swift in Sources */,
+				4BE6229623F9E3DF008C1ED1 /* NewsManager.swift in Sources */,
 				4BE6227023F99486008C1ED1 /* AppDelegate.swift in Sources */,
+				4BE6229023F9CF13008C1ED1 /* NewsTableViewCell.swift in Sources */,
 				4BE6228E23F99D6B008C1ED1 /* NewsClient.swift in Sources */,
 				4BE6228C23F99AD9008C1ED1 /* Api.swift in Sources */,
+				4BE6229223F9D05E008C1ED1 /* UIImageView+extension.swift in Sources */,
 				4BE6227223F99486008C1ED1 /* SceneDelegate.swift in Sources */,
+				4BE6229423F9D081008C1ED1 /* ImagesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
