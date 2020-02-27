@@ -2,10 +2,10 @@
 
 Building a client Mobile app from scratch.
 
-Components diagram:
+## Components Diagram
 
 ![](diagrams.png)
 
-Final look:
+## Final Look
 
 ![](screenshots.png)
