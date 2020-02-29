@@ -4,8 +4,12 @@ Building a client Mobile app from scratch.
 
 ## Components Diagram
 
-![](diagrams.png)
+<p align="center">
+<img src="diagrams.png" width="40%"/>
+</p>
 
 ## Final Look
 
-![](screenshots.png)
+<p align="center">
+<img src="screenshots.png" width="80%"/>
+</p>
